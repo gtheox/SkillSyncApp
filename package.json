@@ -1,0 +1,49 @@
+{
+  "name": "skillsync-mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo start --android --dev-client",
+    "ios": "expo start --ios --dev-client",
+    "web": "expo start --web",
+    "start:clean": "expo start --clear --dev-client",
+    "start:reset": "expo start --reset-cache --dev-client",
+    "build:dev:android": "eas build --profile development --platform android",
+    "build:dev:ios": "eas build --profile development --platform ios",
+    "build:preview:android": "eas build --profile preview --platform android",
+    "build:preview:ios": "eas build --profile preview --platform ios",
+    "build:prod:android": "eas build --profile production --platform android",
+    "build:prod:ios": "eas build --profile production --platform ios"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.3",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@tanstack/react-query": "^5.17.0",
+    "axios": "^1.6.2",
+    "expo": "~51.0.0",
+    "expo-constants": "~16.0.0",
+    "expo-dev-client": "~4.0.29",
+    "expo-font": "~12.0.5",
+    "expo-linear-gradient": "~13.0.2",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-get-random-values": "^1.9.0",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "~3.31.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "babel-plugin-module-resolver": "^5.0.0"
+  },
+  "private": true
+}
+
+
+
+
