@@ -40,7 +40,9 @@ A aplicação se integra com a API .NET do SkillSync, que se comunica com a API 
 
 ## 🎥 Vídeo de Apresentação
 
-📹 **[Link para o vídeo de demonstração](https://youtube.com)** *(Adicionar link quando disponível)*
+📹 **[Assista ao vídeo de demonstração](https://youtu.be/7zSTZOENiMU)**
+
+[![Assista ao vídeo](https://img.youtube.com/vi/7zSTZOENiMU/0.jpg)](https://youtu.be/7zSTZOENiMU)
 
 **Duração:** 5 minutos  
 **Conteúdo:** Demonstração completa de todas as funcionalidades do aplicativo
